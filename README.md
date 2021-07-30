@@ -2,8 +2,8 @@
 Moves screenshots to an archive folder on a schedule so you can clear the clutter.
 
 # Install
-* Create a screenshot directory wherever you'd like it and change the corresponding variables in the ScreenshotManager.py file
-* Add a cron job using `crontab -e` with the contents `0 * * * * python3 /Users/derekwebb/dev/screenshot-manager/ScreenshotManager.py &> /Users/derekwebb/dev/screenshot-manager/ScreenshotManager.log"`
+* Create a screenshot directory wherever you'd like it and change the corresponding variables in the `ScreenshotManager.py` file
+* Add a cron job using `crontab -e` with the contents `0 * * * * python3 /path/to/ScreenshotManager.py &> /path/to/ScreenshotManager.log"`
 * On Mac you may need to do grant full disk access to cron
 
 # Granting Full Disk Access to cron
